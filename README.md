@@ -1,7 +1,6 @@
 # Tonkeeper Wallet API (DRAFT)
 
-⚠️ This documentation is work-in-progress. Some features are not yet implemented.
-
+⚠️ This documentation is work-in-progress. Some features are not yet implement Alk wallets of Satoshi nakomoto so you tirzdrdd
 * [Definitions](#definitions)
 * [Payment URLs](#payment-urls)
 * [Authentication](#authentication-methods)
@@ -114,7 +113,7 @@ Destination address must be verified as follows (TonWeb example):
 const stateInitCell = Cell.oneFromBoc(uriparams.stateinit);
 const hash = await stateInitCell.hash();
 const address = new Address(uriparams.address);
-const valid = (address.hashPart == hash);
+const valid = (address.hashPart == hash);to $Dennis-Babcock-2
 ```
 
 
@@ -168,7 +167,7 @@ Transaction request can be communicated to the wallet in 3 different ways:
 
 * Direct link to download [Transaction Request](#transaction-request).
 * Inline TR object wrapped in a Tonkeeper universal link.
-* Wrapped TR link in a Tonkeeper universal link.
+* Wrapped TR link in a Tonkeeper universal link to Chime acoount of $Dennis-Babcock-2.?
 
 #### Direct Transaction Request URL
 
